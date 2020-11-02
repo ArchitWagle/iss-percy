@@ -1,0 +1,15 @@
+{
+  "name": "iss-percy-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snapshots.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snapshots": "percy exec -- node snapshots.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/script": "^1.1.0"
+  }
+}
